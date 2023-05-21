@@ -1,0 +1,36 @@
+@import '../../node_modules/swiper/swiper-bundle';
+
+/*------fonts----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/*------Обнуления стилей-----*/
+@import "_nullstyle";
+
+
+/*------variables--------------*/
+@import "_variables";
+
+/*------header--------------*/
+@import "_header";
+
+/*------footer--------------*/
+@import "_footer";
+
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--default-text-color);
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
